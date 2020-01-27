@@ -1,0 +1,150 @@
+/* COLORES
+#373a3C
+#dddddd
+#000 o var(--black)
+#fff o var(--white);
+#dc3545 o var(--danger);
+*/
+
+/* FUENTES
+font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+body * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.navbar-brand.ricomida {
+    /*LOGO RICOMIDA*/
+    margin-left: 5rem;
+}
+
+#navbarNav {
+    /*ENLACES DEL NAVBAR*/
+    margin-left: 40rem;
+
+}
+
+#princip {
+    /*DIV CONTENEDOR DE LA PORTADA (IMAGEN+TEXTOS+TOOLTIPS)*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ricomida {
+    /*LOGO DE LA EMPRESA*/
+    color: #FFFFFF;
+    font-size: 37px;
+    font-family: 'Lobster', cursive;
+}
+
+
+.muestra {
+    /*FOTO PIZZA CHAMPI;ONES*/
+    max-width: 410px;
+    display: inline-block;
+}
+
+.muestraTit {
+    /*FRASE JUNTO A LA PIZZA DE CHAMPI;ONES*/
+    max-width: 420px;
+    height: 201px;
+    display: inline-block;
+}
+
+.line {
+    /*LINEA QUE DIVIDE LAS SECCIONES*/
+    border: 1px solid #7a7575;
+}
+
+.tit {
+    /*TODOS LOS TITULOS */
+    text-decoration: underline;
+    radial-gradient: ellipse closest-side, #ffffff, #020202;
+    padding-bottom: 1rem;
+}
+
+.subt {
+    /*TODOS LOS SUBTITULOS*/
+    text-align: center;
+    font-weight: bolder;
+}
+
+li {
+    /*LISTA DE LA SECCION PREPARACION*/
+    list-style: none;
+}
+
+
+#recetas {
+    /*DIV DE 3 RECETAS*/
+    font-family: 'Cabin', sans-serif;
+    padding-top: 2rem;
+}
+
+#recetas h2 {
+    /*TITULOS DE LA SECCION RECETAS RELACIONADAS*/
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.newsletter {
+    /*DIV PRE FOOTER, COLOR ROJO*/
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+footer {
+    /*footer*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /*esto hace que al llegar a los 800px el texto de la presentación se alinee*/
+    .centrado {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .muestraTit {
+        text-align: center;
+    }
+
+    h3 {
+        text-aligne: center;
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselExampleIndicators {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 00px) {
+
+    /*esto hace que al llegar a los 800px el texto se alinee*/
+    .centrado {
+        text-align: center;
+    }
+}
